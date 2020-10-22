@@ -7,6 +7,9 @@ import Fade from "react-reveal/Fade";
 import Slide from "react-reveal/Slide";
 import { Parallax } from "react-parallax";
 import Container from "react-bootstrap/Container";
+import Skills from './pages/skills-component/skills';
+import Experience from './pages/experience/experience';
+import Projects from './components/projects/projects';
 
 import './App.css';
 
@@ -32,8 +35,30 @@ function App() {
             </Container>
            
      </div>
+     <Container className="container-box rounded">
+        <Slide bottom duration={500}>
+          <hr />
+          <Skills />
+        </Slide>
+      </Container>
+      <div>
+        <Container className="container-box rounded">
+          <Fade duration={500}>
+            <hr />
+
+            <Experience />
+          </Fade>
+        </Container>
+        <Container className="container-box rounded">
+        <Slide bottom duration={500}>
+          <hr />
+          <Projects/>
+        </Slide>
+      </Container>
+      </div>
      </Parallax>
       </div>
+     
       </header>
     </div>
   );
