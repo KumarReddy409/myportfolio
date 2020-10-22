@@ -9,8 +9,8 @@ import './skills.css'
 
 function skills() {
     return (
-        <div className="pt-3 pb-3" className="skills">
-        <h1 className="text-center font-details-b pb-4">TECH SKILLS</h1>
+        <div className="pt-3 pb-3" id="Skills">
+        <h1 className="text-center text-dark font-details-b pb-4">TECH SKILLS</h1>
         <CardDeck>
         <Row className="d-flex justify-content-around">
           {/* Frontend */}

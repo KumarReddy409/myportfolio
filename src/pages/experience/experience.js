@@ -7,8 +7,8 @@ import Card from "react-bootstrap/Card";
 
 function experience() {
     return (
-        <div className="experience">
-             <h1 className="pt-3 text-center font-details-b pb-3">EXPERIENCE</h1>
+        <div id="Experience">
+             <h1 className="pt-3 text-center text-dark font-details-b pb-3">EXPERIENCE</h1>
       <Jumbotron className="jumbo-style">
         <Container>
           <Tilt options={{ max: 25 }}>

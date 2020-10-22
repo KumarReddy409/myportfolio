@@ -1,6 +1,6 @@
 import React from 'react';
 import './projects.css';
-import { Timeline, Events, UrlButton, ImageEvent } from "@merc/react-timeline";
+import { Timeline, Events, ImageEvent } from "@merc/react-timeline";
 import Accordion from "react-bootstrap/Accordion";
 import Card from "react-bootstrap/Card";
 import Image from "react-bootstrap/Image";
@@ -16,8 +16,8 @@ import L_HTML5 from "../../assets/img/skills/html-5.svg";
 
 function projects() {
     return (
-            <div id="projects">
-      <h1 className="pt-3 text-center font-details-b pb-3">PROJECTS</h1>
+            <div id="Projects">
+      <h1 className="pt-3 text-center text-dark font-details-b pb-3">PROJECTS</h1>
       <Timeline>
         <Events>
         <ImageEvent

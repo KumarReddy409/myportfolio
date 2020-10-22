@@ -11,7 +11,7 @@ import Button from "react-bootstrap/Button";
 function about() {
     return (
         <div>
-            <div className="about">
+            <div id="About">
             <h1 className="text-center pt-3 pb-3">About Me</h1>
             <Container>
                 <Row className="align-items-center pt-3 pb-5">

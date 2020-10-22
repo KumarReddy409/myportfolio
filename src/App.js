@@ -10,12 +10,14 @@ import Container from "react-bootstrap/Container";
 import Skills from './pages/skills-component/skills';
 import Experience from './pages/experience/experience';
 import Projects from './components/projects/projects';
+import Contact from './pages/contact/contact';
+import Footer from './components/footer/footer';
 
 import './App.css';
 
 function App() {
   return (
-    <div className="App" style={{ position: "relative" }}>
+    <div className="App" id="Home" style={{ position: "relative" }}>
       <header className="App-header">
       <Header/>
       <Carousel/>
@@ -55,10 +57,17 @@ function App() {
           <Projects/>
         </Slide>
       </Container>
+      <Container className="container-box rounded">
+        <Fade duration={500}>
+          <hr />
+          <Contact />
+        </Fade>
+      </Container>
       </div>
      </Parallax>
       </div>
-     
+      <hr />
+      <Footer />
       </header>
     </div>
   );

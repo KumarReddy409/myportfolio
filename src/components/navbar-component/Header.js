@@ -9,18 +9,30 @@ import './Header.css';
 function Header() {
     return (
         <>
-<Navbar fixed="top" expand="md"  variant="dark" className="animate-navbar nav-theme justify-content-between" >
-  <Navbar.Brand href="#home">
-    
-  </Navbar.Brand>
+<Navbar fixed="top" expand="md"  className="animate-navbar nav-theme justify-content-between" >
+  
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-  <Navbar.Collapse id="responsive-navbar-nav">
-    <Nav className="ml-auto">
-      <Nav.Link href="#Home">Home</Nav.Link>
-      <Nav.Link href="#About">About</Nav.Link>
-      <Nav.Link href="#Skills">Skills</Nav.Link>
-      <Nav.Link href="#Experience">Experience</Nav.Link>
-      <Nav.Link href="#Projects">Projects</Nav.Link>
+  <Navbar.Collapse id="responsive-navbar-nav ">
+    <Nav className="ml-auto " variant="tabs"    defaultActiveKey="#home">
+    <Nav.Item>
+    <Nav.Link href="#Home">Home</Nav.Link>
+    </Nav.Item>
+    <Nav.Item>
+           <Nav.Link href="#About" >About</Nav.Link>
+     </Nav.Item>
+      <Nav.Item>
+           <Nav.Link href="#Skills">Skills</Nav.Link>
+      </Nav.Item>
+      <Nav.Item>
+            <Nav.Link href="#Experience">Experience</Nav.Link>
+      </Nav.Item>
+      <Nav.Item>
+            <Nav.Link href="#Projects">Projects</Nav.Link>
+      </Nav.Item>
+      <Nav.Item>
+          <Nav.Link href="#Contact">Contact</Nav.Link>
+      </Nav.Item>
+
     </Nav>
     
   </Navbar.Collapse>
